@@ -58,7 +58,7 @@ final class TeacherDetailViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-
+        overrideUserInterfaceStyle = .light
 		imageView.image = UIImage(named: teacher.imageName)
 		nameLabel.text = teacher.name
 		yearsAtHogwartsLabel.text = "\(teacher.startingYear)-\(teacher.endingYear)"

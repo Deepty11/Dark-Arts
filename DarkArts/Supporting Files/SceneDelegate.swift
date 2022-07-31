@@ -33,9 +33,5 @@
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-    var window: UIWindow? {
-        didSet {
-            window?.overrideUserInterfaceStyle = .light
-        }
-    }
+	var window: UIWindow?
 }
